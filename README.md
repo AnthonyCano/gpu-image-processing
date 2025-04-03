@@ -15,18 +15,6 @@ This project demonstrates how to accelerate image processing operations using GP
 
 ---
 
-## Tech Stack
-
-| Component         | Tech                  |
-|------------------|-----------------------|
-| Language          | Python                |
-| Image Processing  | OpenCV                |
-| GPU Acceleration  | Numba or PyOpenCL     |
-| Benchmarking      | time / perf_counter   |
-| (Optional) GUI    | Tkinter or PyQt       |
-
----
-
 ### Dependencies
 
 - Python 3.8+
