@@ -1,0 +1,16 @@
+
+Loading in images in C/C++
+- I want to still use openCV since we can read, display, convert,
+ and it still stores the images as a 2-d array. 
+
+- Since openCV stores already in a matrix I am just thinking that we can store the images in memory
+ as a 2-d array, and to iterate throught them I might just use pointer arithmetic since it is faster?
+
+Conversion
+- I think I am just going to loop through the entire image and each pixel and convert manually
+ for control. 
+
+
+GPU version
+- I want to make the program to work on multiple GPU's so I am leaning towards using openCL?
+ Need to look at documentation to figure out how it will work.
