@@ -1,12 +1,13 @@
-#ifndef  filters.h
-
-
-#endif // ! filters.h
+#ifndef  filters.hpp
+#define filters.hpp
 
 #include <CL/cl.h>
 
-// CPU gray filter
-bool applyGrayScaleCPU();
-
-// GPU gray filter
-bool applyGrayScaleGPU();
+bool applyGrayscaleFilter(cl_context context,
+                          cl_command_queue queue,
+                          cl_program program,
+                          cl_mem inputImageBuffer,
+                          cl_mem outputGrayBuffer,
+                          int width,
+                          int height);
+#endif 
