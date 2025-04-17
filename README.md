@@ -17,7 +17,7 @@ This project demonstrates how to accelerate image processing operations using GP
 
 ### Dependencies
 
-- Python 3.8+
+- Python 3.8+ (Python 3.12+ is not currently supported by CUDA)
 - GPU-compatible device (NVIDIA or Intel)
 - pip (Python package manager)
 

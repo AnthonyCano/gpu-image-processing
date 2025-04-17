@@ -1,1 +1,5 @@
 venv/
+venv311/
+__pycache__
+.vs
+env
