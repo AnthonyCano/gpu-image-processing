@@ -18,3 +18,18 @@ GPU version
 
 I am going to use openCL for more control over the gpu and the like. I can also just use the built 
 in functions in openCV and then fine tune it with my gpu.
+
+## File Structure
+gpu-image-processing/
+├── filters/
+│   ├── grayscale.cl           ← OpenCL kernel (GPU filter code)
+│   ├── filters.hpp            ← Header for your GPU functions
+│   └── filters.cpp            ← Host-side OpenCL logic (loads .cl, runs kernel)
+├── images/
+│   └── test.jpg               ← Input image(s)
+├── output/
+│   └── result.jpg             ← Output (grayscale result)
+├── main.cpp                   ← Loads image (OpenCV), calls OpenCL, saves result
+├── CMakeLists.txt             ← Optional: clean build setup
+└── README.md                  ← Project description
+
