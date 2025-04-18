@@ -14,3 +14,7 @@ Conversion
 GPU version
 - I want to make the program to work on multiple GPU's so I am leaning towards using openCL?
  Need to look at documentation to figure out how it will work.
+
+
+I am going to use openCL for more control over the gpu and the like. I can also just use the built 
+in functions in openCV and then fine tune it with my gpu.
