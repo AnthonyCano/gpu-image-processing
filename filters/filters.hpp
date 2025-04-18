@@ -1,5 +1,5 @@
-#ifndef  filters.hpp
-#define filters.hpp
+#ifndef FILTERS_HPP
+#define FILTERS_HPP
 
 #include <CL/cl.h>
 
@@ -10,4 +10,4 @@ bool applyGrayscaleFilter(cl_context context,
                           cl_mem outputGrayBuffer,
                           int width,
                           int height);
-#endif 
+#endif // FILTERS_HPP
