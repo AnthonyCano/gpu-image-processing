@@ -9,7 +9,7 @@ This project demonstrates how to accelerate image processing operations using GP
   - Grayscale
   - Edge Detection (Sobel)
   - Gaussian Blur
-- GPU-accelerated filter execution (Numba or OpenCL)
+- GPU-accelerated filter execution (OpenCL)
 - Side-by-side CPU vs GPU performance benchmarking
 - CLI or GUI (coming soon!)
 
@@ -18,7 +18,7 @@ This project demonstrates how to accelerate image processing operations using GP
 ### Dependencies
 
 - Python 3.8+ (Python 3.12+ is not currently supported by CUDA)
-- GPU-compatible device (NVIDIA or Intel)
+- GPU-compatible device (NVIDIA or AMD or Intel)
 - pip (Python package manager)
 
 ### Installation
